@@ -1,0 +1,39 @@
+{
+
+  "manifest_version": 2,
+  "name": "Godspeak",
+  "short_name":"godspeak",
+  "version": "0.0.0.1",
+  "icons":{
+  	"16": "icon16.png",
+  	"48": "icon48.png",
+  	"128": "icon128.png"
+  },
+
+  "description": "Chrome extension of Godspeak-Generator project.",
+  "homepage_url": "https://github.com/jcpsimmons/Godspeak-Generator",
+  
+
+  "permissions": [
+    "activeTab",
+    "http://fonts.googleapis.com/",
+    "https://fonts.googleapis.com/"
+
+  ],
+
+
+  "sandbox": {
+    "pages": [
+      "index.html"
+    ]
+   }, 
+
+  "browser_action": {
+    "default_title": "Godspeak-extension",
+    "default_icon": "icon2.png",
+    "default_popup": "index.html"
+  }
+
+
+
+}
